@@ -1,0 +1,24 @@
+[{
+    "nombre": "Gamesa Siemens DBVar",
+    "descripcion": "Aplicación de escritorio contra servicios WCF"
+},
+{
+    "nombre": "Randstad Esolutions",
+    "url": "https://esolutions.randstad.es",
+    "descripcion": "Desarrollo de firma de documentos en la nube"
+},
+{
+    "nombre": "Clínica Euskalduna",
+    "url": "http://www.clinicaeuskalduna.com",
+    "descripcion": "Maquetación Bootstrap"
+},
+{
+    "nombre": "Pasteland",
+    "url": "http://www.pasteland.es",
+    "descripcion": "Tienda online"
+},
+{
+    "nombre": "ALUD - Universidad de Deusto",
+    "url": "https://alud.deusto.es",
+    "descripcion": "Plataforma e-learning"
+}]

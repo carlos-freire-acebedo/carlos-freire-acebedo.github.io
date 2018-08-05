@@ -1,26 +1,14 @@
-<section class="section projects-section">
+            {% if site.data.proyectos %}
+            <section class="section projects-section">
                 <h2 class="section-title"><i class="fa fa-archive"></i>Proyectos</h2>
                 <div class="intro">
                     <p>He participado en el desarrollo de los siguientes proyectos:</p>
-                </div><!--//intro-->
+                </div>
+                {% for proyecto in site.data.proyectos %}
                 <div class="item">
-                    <span class="project-title">Gamesa Siemens DBVar</span> - 
-                    <span class="project-tagline">Aplicación de escritorio contra servicios WCF</span>
-                </div><!--//item-->
-                <div class="item">
-                    <span class="project-title"><a href="https://esolutions.randstad.es" target="_blank">Randstad Esolutions</a></span> - 
-                    <span class="project-tagline">Desarrollo de firma de documentos en la nube</span>
-                </div><!--//item-->
-                <div class="item">
-                    <span class="project-title"><a href="http://www.clinicaeuskalduna.com" target="_blank">Clínica Euskalduna</a></span> - 
-                    <span class="project-tagline">Maquetación Bootstrap</span>
-                </div><!--//item-->
-                <div class="item">
-                    <span class="project-title"><a href="http://www.pasteland.es">Pasteland</a></span> - 
-                    <span class="project-tagline">Tienda online</span>
-                </div><!--//item-->
-                <div class="item">
-                    <span class="project-title"><a href="http://plataforma.deusto.es" target="_blank">ALUD - Universidad de Deusto</a></span> - 
-                    <span class="project-tagline">Plataforma e-learning</span>
-                </div><!--//item-->
-            </section><!--//section-->
+                    <span class="project-title">{% if proyecto.url %}<a href="{{ proyecto.url }}" target="_blank">{% endif %}{{ proyecto.nombre }}{% if proyecto.url %}</a>{% endif %}</span> - 
+                    <span class="project-tagline">{{ proyecto.descripcion }}</span>
+                </div>
+                {% endfor %}
+            </section>
+            {% endif %}
