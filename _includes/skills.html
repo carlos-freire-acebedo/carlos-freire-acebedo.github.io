@@ -1,61 +1,16 @@
-<section class="skills-section section">
+            {% if site.data.competencias %}
+            <section class="skills-section section">
                 <h2 class="section-title"><i class="fa fa-rocket"></i>Competencias técnicas</h2>
                 <div class="skillset">        
+                    {% for competencia in site.data.competencias %}
                     <div class="item">
-                        <h3 class="level-title">ASP.NET (WebForms)</h3>
+                        <h3 class="level-title">{{ competencia.nombre }}</h3>
                         <div class="level-bar">
-                            <div class="level-bar-inner" data-level="100%">
+                            <div class="level-bar-inner" data-level="{{ competencia.nivel }}%">
                             </div>                                      
-                        </div><!--//level-bar-->                                 
-                    </div><!--//item-->
-                    
-                    <div class="item">
-                        <h3 class="level-title">Visual Basic .NET</h3>
-                        <div class="level-bar">
-                            <div class="level-bar-inner" data-level="100%">
-                            </div>                                      
-                        </div><!--//level-bar-->                                 
-                    </div><!--//item-->
-                    
-                    <div class="item">
-                        <h3 class="level-title">C#</h3>
-                        <div class="level-bar">
-                            <div class="level-bar-inner" data-level="98%">
-                            </div>                                      
-                        </div><!--//level-bar-->                                 
-                    </div><!--//item-->
-                    
-                    <div class="item">
-                        <h3 class="level-title">Javascript</h3>
-                        <div class="level-bar">
-                            <div class="level-bar-inner" data-level="90%">
-                            </div>                                      
-                        </div><!--//level-bar-->                                 
-                    </div><!--//item-->
-                    
-                    <div class="item">
-                        <h3 class="level-title">jQuery</h3>
-                        <div class="level-bar">
-                            <div class="level-bar-inner" data-level="90%">
-                            </div>                                      
-                        </div><!--//level-bar-->                                 
-                    </div><!--//item-->
-                    
-                    <div class="item">
-                        <h3 class="level-title">Maquetación HTML</h3>
-                        <div class="level-bar">
-                            <div class="level-bar-inner" data-level="90%">
-                            </div>                                      
-                        </div><!--//level-bar-->                                 
-                    </div><!--//item-->
-
-                    <div class="item">
-                        <h3 class="level-title">WinForms</h3>
-                        <div class="level-bar">
-                            <div class="level-bar-inner" data-level="90%">
-                            </div>                                      
-                        </div><!--//level-bar-->                                 
-                    </div><!--//item-->
-                    
+                        </div>
+                    </div>
+                    {% endfor %}
                 </div>  
-            </section><!--//skills-section-->
+            </section>
+            {% endif %}
