@@ -1,21 +1,21 @@
 [{
     "nombre": "Gamesa Siemens DBVar",
-    "descripcion": "Aplicación de escritorio contra servicios WCF"
+    "descripcion": "Aplicación de escritorio (WinForms - WCF)"
 },
 {
     "nombre": "Randstad Esolutions",
     "url": "https://esolutions.randstad.es",
-    "descripcion": "Desarrollo de firma de documentos en la nube"
+    "descripcion": "Gestión y firma de documentación en la nube"
 },
 {
     "nombre": "Clínica Euskalduna",
     "url": "http://www.clinicaeuskalduna.com",
-    "descripcion": "Maquetación Bootstrap"
+    "descripcion": "Maquetación web responsive (bootstrap)"
 },
 {
     "nombre": "Pasteland",
     "url": "http://www.pasteland.es",
-    "descripcion": "Tienda online"
+    "descripcion": "Tienda online con pago a través de TPV"
 },
 {
     "nombre": "ALUD - Universidad de Deusto",
