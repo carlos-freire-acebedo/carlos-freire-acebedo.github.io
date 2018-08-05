@@ -1,7 +1,10 @@
+{{ if site.data.idiomas }}
 <div class="languages-container container-block">
 <h2 class="container-block-title">Idiomas</h2>
 <ul class="list-unstyled interests-list">
-<li>Ingles <span class="lang-desc">(técnico)</span></li>
-<li>Euskera <span class="lang-desc">(básico)</span></li>
+    {% for idioma in site.data.idiomas %}
+    <li>{{ idioma.nombre }} <span class="lang-desc">({{ idioma.nivel }})</span></li>
+    {% endfor %}
 </ul>
-</div><!--//interests-->
+</div>
+{{ endif }}
