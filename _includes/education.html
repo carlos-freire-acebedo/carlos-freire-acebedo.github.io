@@ -1,13 +1,12 @@
- <div class="education-container container-block">
+{% if site.data.titulaciones %}
+<div class="education-container container-block">
 <h2 class="container-block-title">Formación</h2>
-<div class="item">
-    <h4 class="degree">C.F.P.G.S. Administración de sistemas informáticos</h4>
-    <h5 class="meta">Elorrieta Erreka Mari - Bilbao</h5>
-    <div class="time">2002 - 2004</div>
-</div><!--//item-->
-<div class="item">
-    <h4 class="degree">Técnico en seguridad informática</h4>
-    <h5 class="meta">Centro Redox, Las Arenas</h5>
-    <div class="time">2003 - 2004</div>
-</div><!--//item-->
-</div><!--//education-container-->
+    {% for titulacion in site.data.titulaciones %}
+    <div class="item">
+        <h4 class="degree">{{ titulacion.nombre }}</h4>
+        <h5 class="meta">{{ titulacion.centro }}</h5>
+        <div class="time">{{ titulacion.periodo }}</div>
+    </div>
+    {% endfor %}
+</div>
+{% endif %}
