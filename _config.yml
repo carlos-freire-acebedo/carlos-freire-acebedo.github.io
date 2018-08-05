@@ -1,7 +1,7 @@
 
-title: My Resume
-url: 'gouravshenoy.github.io'
-baseurl: '/profile' #change it according to your repository name
+title: Perfil profesional de Carlos Freire Acebedo
+url: 'carlos-freire-acebedo.github.io'
+baseurl: '' #change it according to your repository name
 
 
 # Enable one of these styles by removing #. Style will be applied only after restarting the build or serve.
@@ -13,18 +13,12 @@ baseurl: '/profile' #change it according to your repository name
 
 
 #Profile information
-name: Gourav Shenoy
-tagline: Budding Cloud Developer
-pic: gourav_image.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+name: Carlos Freire Acebedo
+tagline: Analista programador .NET
+pic: carlos-freire-acebedo.jpeg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
 #sidebar links
-email: goshenoy@indiana.edu
-phone: 812 360 9729
-website: gouravshenoy.github.io #do not add http://
-linkedin: gouravshenoy
-github: gouravshenoy
-twitter: '@GouravShenoy'
-facebook: gourav.shenoy
-instagram: gourav_shenoy
+linkedin: carlos-freire-acebedo
+github: carlos-freire-acebedo
 
 #Update all the sections by editing the files inside _includes folder.
