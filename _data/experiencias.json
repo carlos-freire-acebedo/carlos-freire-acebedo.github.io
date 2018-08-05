@@ -1,0 +1,18 @@
+[{
+    "titulo": "Analista programador - SCRUM Master",
+    "periodo": "Julio 2017 - Actualidad",
+    "empresa": "Avangroup Business Solutions",
+    "detalles": "<p>Desarrollo aplicación DBVar R7 para Siemens Gamesa con las siguientes tecnologías/herramientas: <ul><li>Visual Studio 2017, Code Analysis, Controles Telerik</li><li>WinForm, C#, LINQ, WCF, Parallel Framework, Dapper</li><li>SQL Server 2016</li><li>Control de código fuente MKS, SCRUM</li></ul></p><p>Desde Marzo de 2018 alternando las tareas propias de analista programador con las de SCRUM Master ante la marcha del responsable del proyecto.</p>"
+},
+{
+    "titulo": "Analista programador",
+    "periodo": "Marzo 2015 - Junio 2015",
+    "empresa": "Randstad technologies",
+    "detalles": "<p>Desarrollo de aplicaciones web para dpto. ITC de Randstad España, utilizando las siguientes tecnologías/herramientas:<ul><li>Visual Studio 2015, TFS, SCRUM</li><li>WebForms, Visual Basic .NET, JavaScript, Ajax, CSS.</li><li>SQL Server</li></ul></p><p>Entre las soluciones que he tenido que desarrollar durante mi etapa en Randstad destaco la implementación de un sistema de firma de documentación en la nube, usando certificados generados por el proveedor SIA.</p>"
+},
+{
+    "titulo": "Analista programador - responsable de desarrollo",
+    "periodo": "Octubre 2005 - Febrero 2015",
+    "empresa": "Eclickse Digital",
+    "detalles": "<p>Desde mi entrada en la empresa he pasado por varias etapas:<ul><li>Durante el primer año estuve como programador senior usando ASP contra SQL Server y Access.</li><li>Después de un periodo de reciclaje empece a programar en .NET. Sobre todo he desarrollado paginas web con gestores de contenidos y aplicaciones hechas a medida.</li><li>Durante los últimos años he compaginado mis tareas de programador con elaboración de análisis funcionales, desarrollo de librerías en .NET para estructurar la arquitectura común de los desarrollos, auditorias de seguridad de sitios web, análisis de accesibilidad para obtención de subvención, etc.</li></ul></p><p>Entre mis principales tareas destacan:<ul><li>Responsable del departamento programación definiendo la arquitectura común de los desarrollos y dando soporte al resto de los miembros del equipo de programadores.</li><li>Gestión de dominios, servidores DNS, servidor de correo, servidores web.</li><li>Desarrollo de aplicaciones, webs corporativas y tiendas online.</li></ul></p>"
+}]
