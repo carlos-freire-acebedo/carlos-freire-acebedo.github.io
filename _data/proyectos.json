@@ -1,24 +1,31 @@
-[{
+[
+  {
+    "nombre": "European Judicial Network (EJN)",
+    "url": "https://www.ejn-crimjust.europa.eu",
+    "descripcion": "Mantenimiento evolutivo del Front-End y del Back-End"
+  },
+  {
     "nombre": "Gamesa Siemens DBVar",
     "descripcion": "Aplicación de escritorio (WinForms - WCF)"
-},
-{
+  },
+  {
     "nombre": "Randstad Esolutions",
     "url": "https://esolutions.randstad.es",
     "descripcion": "Gestión y firma de documentación en la nube"
-},
-{
+  },
+  {
     "nombre": "Clínica Euskalduna",
     "url": "http://www.clinicaeuskalduna.com",
     "descripcion": "Maquetación web responsive (bootstrap)"
-},
-{
+  },
+  {
     "nombre": "Pasteland",
     "url": "http://www.pasteland.es",
     "descripcion": "Tienda online con pago a través de TPV"
-},
-{
+  },
+  {
     "nombre": "ALUD - Universidad de Deusto",
     "url": "https://alud.deusto.es",
     "descripcion": "Plataforma e-learning"
-}]
+  }
+]
