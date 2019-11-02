@@ -1,28 +1,42 @@
-[{
+[
+  {
+    "nombre": "Angular - TypeScript",
+    "nivel": "50"
+  },
+  {
+    "nombre": "ASP.NET Core MVC",
+    "nivel": "60"
+  },
+  {
+    "nombre": "SignalR",
+    "nivel": "70"
+  },
+  {
     "nombre": "ASP.NET (WebForms)",
     "nivel": "100"
-},
-{
+  },
+  {
     "nombre": "Visual Basic .NET",
     "nivel": "100"
-},
-{
+  },
+  {
     "nombre": "C#",
-    "nivel": "98"
-},
-{
+    "nivel": "95"
+  },
+  {
     "nombre": "Javascript",
     "nivel": "90"
-},
-{
+  },
+  {
     "nombre": "jQuery",
     "nivel": "90"
-},
-{
+  },
+  {
     "nombre": "Maquetación HTML",
     "nivel": "90"
-},
-{
+  },
+  {
     "nombre": "WinForms",
     "nivel": "90"
-}]
+  }
+]
